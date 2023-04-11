@@ -1,0 +1,15 @@
+What is reactJS?
+
+1. React JS is a 'javascript user interface library' for building web and mobile applications.
+2 .React JS can be used to develop single page web applications.
+React allows us to create reusable UI components.
+3 .it uses virtual DOM for Updating the DOM Changes.
+4 .It’s a library. Framework means everything should be with a single tool without taking of other tools like
+routing, services, api calls, components creation. Everything works with commands easily. But in terms
+of library, we need to download third party tools separately like routing (react-router-dom), 
+api calls(axios) etc., So, this is the reason why react is called a library.
+5. React won't render the output directly in the browser dom, 
+  it will take the lightweight dom as backup which also known as Virtual DOM and
+  compares with the state using diff algorithm,
+  If there are any changes need to be updated in the browser DOM then 
+  it will update Otherwise it won't do any updating to the browser dom.
